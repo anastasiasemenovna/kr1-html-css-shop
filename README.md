@@ -89,11 +89,6 @@
 - `README.md` — описание проекта;
 - `.gitignore` — список файлов, исключённых из Git.
 
-## Дополнительные элементы
-
-- `sitemap.xml` — простая карта сайта;
-- Open Graph-теги — базовая разметка для отображения ссылок.
-
 ## Ссылка на опубликованный проект
 
 GitHub Pages: https://anastasiasemenovna.github.io/kr1-html-css-shop/
