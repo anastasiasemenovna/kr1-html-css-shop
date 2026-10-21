@@ -17,7 +17,9 @@ orderButtons.forEach((button) => {
     const productName = button.dataset.product;
 
     // Записываем название товара в скрытое поле формы.
-    selectedProductInput.value = productName;
+    if (selectedProductInput) {
+      selectedProductInput.value = productName;
+    }
 
     // Открываем модальное окно.
     orderDialog.showModal();
